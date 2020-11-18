@@ -1,0 +1,99 @@
+body{
+    background-color: #1e1e1e;
+    color: white;
+    width: 100%;
+}
+#button {
+    background-color: #1e1e1e;
+    display: inline-block;
+    padding: 0.4em 0.8em;
+    margin-bottom: 1em;
+    width: auto;
+    height: auto;
+    border: white solid 2px;
+    border-radius: 5px;
+    position: absolute;
+    top: 1%;
+    left: 48%;
+}
+#button:hover {
+    cursor: pointer;
+}
+#erg {
+    min-height: 2em;
+    padding: 0.3em;
+    background-color: gray;
+    border-top: white solid 2px;
+    border-left: white solid 2px;
+    border-right: white solid 2px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#erg2{
+    min-height: 2em;
+    padding: 0.3em;
+    background-color: gray;
+    border-left: white solid 2px;
+    border-right: white solid 2px;
+}
+#pasch{
+    min-height: 2em;
+    padding: 0.3em;
+    background-color: gray;
+    border-left: white solid 2px;
+    border-right: white solid 2px;
+    border-bottom: white solid 2px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+#instruction{
+    margin: auto;
+    width: 40%;
+    height: 30em;
+    border: white solid 5px;
+    border-radius: 20px;
+    padding: 1%;
+}
+h2{
+    text-align: center;
+}
+a{
+    width: 8%;
+    height: 2em;
+    text-decoration: none;
+    color: white;
+    background-color: gray;
+    position: absolute;
+    left: 46%;
+    top: 48%;
+    border: white solid 2px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#images{
+    width: 98%;
+    height: 30em;
+    border: white solid 5px;
+    border-radius: 10px;
+    margin-top: 1%;
+}
+img{
+    width: 49%;
+    height: 29em;
+    margin: 0.5%;
+}
+img:first-of-type{
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    float: left;
+}
+img:last-of-type{
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
